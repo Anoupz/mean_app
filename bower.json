@@ -1,0 +1,10 @@
+{
+  "name": "mean_app",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Anoupz/mean_app",
+  "authors": [
+    "Anoupz <anoupz@gmail.com>"
+  ],
+  "description": "MEAN stack application",
+  "license": "MIT"
+}

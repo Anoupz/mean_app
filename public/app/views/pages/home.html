@@ -1,0 +1,14 @@
+<div class="jumbotron text-center">
+    <h1>Welcome to TechnoBook!</h1>
+
+    <div ng-if="!main.loggedIn">
+        <p>One Touch place to keep yourself UpTo Date</p>
+        <a href="/login" class="btn btn-primary">Login</a>
+        <a href="/users/create" class="btn btn-primary">SignUp</a>
+    </div>
+
+    <div ng-if="main.loggedIn">
+        <p>Manage your users.</p>
+        <a href="/users" class="btn btn-primary">View Users</a>
+    </div>
+</div>
